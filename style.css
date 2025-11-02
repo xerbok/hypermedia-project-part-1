@@ -1,0 +1,222 @@
+:root {
+  /* Indica al navegador que tot és dark (formularis, scrollbars, etc.) */
+  color-scheme: dark;
+
+  /* Paleta fosca per defecte */
+  --bg: #0b1220;
+  --text: #e5e7eb;
+  --muted: #9aa3b2;
+  --border: #1f2937;
+  --accent: #60a5fa;
+  --card: #0f172a;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+}
+
+img { max-width: 60%; display: block; }
+a { color: inherit; }
+
+/* Contenidor centrat */
+.wrapper {
+  max-width: 1000px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+/* Tipografia*/
+h1, h2, h3 { 
+  line-height: 1.2; 
+  margin: 0 0 .5rem; 
+}
+h1 { 
+  font-size: 2rem; 
+}
+h2 { 
+  font-size: 1.5rem; 
+  margin-top: .25rem; 
+}
+h3 { 
+  font-size: 1.125rem; 
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  font-size: .8rem;
+  color: var(--muted);
+  margin: 0 0 .25rem;
+}
+
+.lead { 
+  color: var(--muted); 
+  max-width: 60ch; 
+}
+
+.highlight { 
+  color: var(--accent); 
+}
+
+/* Capçalera i navegació */
+.site-header {
+  position: sticky; 
+  top: 0; 
+  z-index: 10;
+  background: var(--bg);
+  border-bottom: 2px solid var(--border);
+}
+
+.header-inner {
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav {
+  margin: 0; padding: 0;
+  list-style: none;
+  display: flex; 
+  gap: .75rem; 
+  flex-wrap: wrap;
+}
+
+.nav a {
+  text-decoration: none;
+  padding: .4rem .9rem;
+  border-radius: .5rem;
+}
+
+/* Seccions i heroi */
+.section { 
+  padding: 48px 0; 
+}
+
+.section.alt { 
+  background: var(--card); 
+}
+
+.hero { 
+  padding-top: 72px; 
+}
+
+/* Botons */
+.cta-row { 
+  display: flex; 
+  gap: .75rem; 
+  margin-top: 12px; 
+}
+
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: .6rem .9rem;
+  border-radius: .6rem;
+}
+
+.btn.ghost {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+.btn:hover { 
+  filter: brightness(1.1); 
+}
+
+/* Layout de columnes i elements */
+.two-col {
+  display: grid;
+  grid-template-columns: 1.5fr .8fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.avatar-wrap { 
+  display: flex; 
+  justify-content: center; 
+}
+.avatar { 
+  border-radius: 12px; 
+  border: 1px solid var(--border); 
+}
+
+/* habilitats destacades */
+.chips { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 8px; 
+}
+.chip {
+  padding: .35rem .6rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: #0c1426;
+}
+
+/* Experiència / items */
+.item { 
+  padding: 16px 0; 
+  border-top: 1px solid var(--border); 
+}
+.item header { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 4px; margin-bottom: 4px; 
+}
+.meta { 
+  color: var(--muted); 
+  font-size: .95rem; 
+}
+.emph { 
+  color: var(--accent); 
+}
+
+/* Projectes graella */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.card .link { 
+  display: inline-block; 
+  margin-top: 6px; 
+  color: var(--accent); 
+  font-weight: 600; 
+}
+
+/* Peu de pàgina */
+.site-footer { 
+  border-top: 1px solid var(--border); 
+  padding: 24px 0; 
+}
