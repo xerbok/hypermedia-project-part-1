@@ -1,7 +1,6 @@
 :root {
   color-scheme: dark;
 
-  /* Paleta fosca per defecte */
   --bg: #0b1220;
   --text: #e5e7eb;
   --muted: #9aa3b2;
@@ -220,3 +219,4 @@ h3 {
   padding: 24px 0; 
 
 }
+
