@@ -1,5 +1,4 @@
 :root {
-  /* Indica al navegador que tot és dark (formularis, scrollbars, etc.) */
   color-scheme: dark;
 
   /* Paleta fosca per defecte */
@@ -15,7 +14,7 @@
 
 body {
   margin: 0;
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: ui-sans-serif, system-ui;
   line-height: 1.6;
   color: var(--text);
   background: var(--bg);
@@ -219,4 +218,5 @@ h3 {
 .site-footer { 
   border-top: 1px solid var(--border); 
   padding: 24px 0; 
+
 }
