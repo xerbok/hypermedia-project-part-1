@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <title>Xavi Carbó — Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrapper header-inner">
+        <a class="brand" href="#home">Xavi Carbó</a>
+        <nav>
+          <ul class="nav">
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO / PRESENTATION -->
+      <section id="home" class="section hero">
+        <div class="wrapper">
+          <p class="eyebrow">Curriculum Vitae</p>
+          <h1>Hi! I'm <span class="highlight">Xavi Carbó</span></h1>
+          <p class="lead">Computer Engineering student with knowledge of front-end and back-end (C/C++, Java, HTML, CSS, JavaScript, React, PHP and SQL), as well as operating systems, networks and computer architecture.</p>
+          <div class="cta-row">
+            <a class="btn" href="#contact">Contact</a>
+            <a class="btn ghost" href="cv.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT ME -->
+      <section id="about" class="section">
+        <div class="wrapper two-col">
+          <div>
+            <h2>About me</h2>
+            <p>
+              I am a <strong>Computer Engineering</strong> student interested in both <em>front-end</em> and <em>back-end</em> development. I enjoy writing clear, maintainable code, prioritising accessibility, performance and best practices.
+            </p>
+            <p>
+              I have knowledge of <strong>HTML, CSS, JavaScript, React, PHP, SQL</strong> and languages like <strong>C, C++ and Java</strong>. I complement my education with <strong>operating systems, networks, computer architecture</strong> and <strong>databases</strong>. I’m looking for opportunities to apply these skills in real projects and keep growing.
+            </p>
+          </div>
+          <div class="avatar-wrap">
+            <img class="avatar" src="images.jpg" alt="Portrait of Xavi Carbó" />
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section alt">
+        <div class="wrapper">
+          <h2>Skills</h2>
+          <div class="chips">
+            <span class="chip">C and C++</span>
+            <span class="chip">Java</span>
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">React</span>
+            <span class="chip">PHP</span>
+            <span class="chip">SQL</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section id="experience" class="section">
+        <div class="wrapper">
+          <h2>Experience</h2>
+
+          <article class="item">
+            <header>
+              <h3>Academic projects — <span class="emph">Universitat de Girona</span></h3>
+              <span class="meta">2023 — 2025 · Girona / remote</span>
+            </header>
+            <ul>
+              <li>Development of local applications for data management with C++ and Java.</li>
+              <li>Responsive and accessible layout with HTML, CSS (Flex/Grid) and JavaScript.</li>
+              <li>Database design and normalization; writing SQL queries.</li>
+            </ul>
+          </article>
+
+          <article class="item">
+            <header>
+              <h3>Professional projects — <span class="emph">Freelance</span></h3>
+              <span class="meta">2024 — present · Remote</span>
+            </header>
+            <ul>
+              <li>Static websites with HTML/CSS and JavaScript.</li>
+              <li>Database management programs for private companies.</li>
+              <li>Basic performance optimization in apps related to implementation.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education" class="section alt">
+        <div class="wrapper">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              <strong>BSc in Computer Engineering</strong> — Universitat de Girona (3rd year, 2023 — present)
+            </li>
+            <li>
+              Relevant courses: Operating Systems, Networks, Computer Architecture, Databases, Programming (C, C++, Java), Web Development (HTML, CSS, JavaScript, React, PHP, SQL).
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section">
+        <div class="wrapper">
+          <h2>Projects</h2>
+          <div class="grid">
+            <a class="card" href="https://github.com" target="_blank" rel="noopener">
+              <h3>CSV Reader (C++)</h3>
+              <p>Reads CSV files and prints columns and rows in the terminal.</p>
+              <span class="link">View code →</span>
+            </a>
+            <a class="card" href="https://github.com" target="_blank" rel="noopener">
+              <h3>Package Delivery Simulator (Java)</h3>
+              <p>Simulates parcel delivery on a node map with routes, couriers and simple queues between hubs.</p>
+              <span class="link">View code →</span>
+            </a>
+            <a class="card" href="https://github.com" target="_blank" rel="noopener">
+              <h3>3D Horror Tactics Game</h3>
+              <p>Prototype combining horror atmosphere and tactical gameplay in a small 3D environment.</p>
+              <span class="link">Try demo →</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section alt">
+        <div class="wrapper">
+          <h2>Contact</h2>
+          <p>
+            Open to new opportunities. You can email me at <a href="mailto:xavicarbo3@gmail.com">xavicarbo3@gmail.com</a> or find me on
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrapper">
+        <small>© <span id="year"></span> Xavi Carbó. All rights reserved.</small>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
