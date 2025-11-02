@@ -47,7 +47,7 @@ Hierarchy and spacing are restrained: compact headings, generous line-height for
 ## 3) Project implementation
 
 - **Tech:** Plain **HTML** (semantic structure) + **CSS** (layout/visuals).  
-- **Files:** `cv.html` and `styles.css`.  
+- **Files:** `index.html` and `styles.css`.  
 - **Dark mode:** Dark is **default**, defined via CSS variables and `color-scheme: dark`.  
 - **Navigation:** In-page anchors in the header; external links use `target="_blank"` with `rel="noopener"`.  
 - **Layout:** Centered wrapper, simple grid for projects, two-column About, minimal responsive behavior.
@@ -57,6 +57,7 @@ Hierarchy and spacing are restrained: compact headings, generous line-height for
 ## Extra information
 
 This CV intentionally does not include live links to project repositories or a LinkedIn profile. The project titles, descriptions, and some dates are partly illustrative for coursework and therefore do not fully reflect my real portfolio or employment history. This document should be read as a design/content prototype rather than an authoritative record. Once the placeholders are replaced with verified project artifacts and my updated LinkedIn, I will add the corresponding links and remove this notice.
+
 
 
 
