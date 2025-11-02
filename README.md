@@ -3,7 +3,7 @@
 Single-page, static CV built with plain **HTML + CSS**.
 
 - **Live page:** https://xerbok.github.io/hypermedia-project-part-1/
-- **Figma design (proposal):** _Add your public Figma link here_
+- **Figma design (proposal):** https://www.figma.com/design/JPC7DFAnbInHA6qU37X6zB/Untitled?node-id=0-1&t=SOS8QsvJPjP7K4b0-1
 
 ---
 
@@ -40,7 +40,7 @@ Hierarchy and spacing are restrained: compact headings, generous line-height for
 - **Components:** Header/nav, Hero (title, lead, CTAs), Section headers, Two-column About, Skill chips, Experience items, Education list, Project cards, Footer.  
 - **Tokens:** Add the same color variables and type scale used in CSS so the hand-off matches the build.  
 - **Prototype:** Simple scroll flow with anchor navigation; include hover states for nav and cards.  
-- **Link:** _Add your public Figma link here_
+- **Link:** https://www.figma.com/design/JPC7DFAnbInHA6qU37X6zB/Untitled?node-id=0-1&t=SOS8QsvJPjP7K4b0-1
 
 ---
 
@@ -57,6 +57,7 @@ Hierarchy and spacing are restrained: compact headings, generous line-height for
 ## Extra information
 
 This CV intentionally does not include live links to project repositories or a LinkedIn profile. The project titles, descriptions, and some dates are partly illustrative for coursework and therefore do not fully reflect my real portfolio or employment history. This document should be read as a design/content prototype rather than an authoritative record. Once the placeholders are replaced with verified project artifacts and my updated LinkedIn, I will add the corresponding links and remove this notice.
+
 
 
 
