@@ -1,3 +1,5 @@
+<!-- @author: XAVI CARBÓ u1994953 -->
+<!-- Els comentaris la majoria els tinc en català per anar entenent què es cada cosa (a vegades la nomenclatura pot ser confosa al abreviar paraules de l'angles) -->
 <!DOCTYPE html>
 <html lang="ca">
   <head>
@@ -22,13 +24,13 @@
     </header>
 
     <main id="main">
-      <!-- HERO / PRESENTATION -->
+      <!-- PRESENTATION -->
       <section id="home" class="section hero">
         <div class="wrapper">
-          <p class="eyebrow">Curriculum Vitae</p>
+          <p class="eyebrow">Curriculum Vitae</p> 
           <h1><span class="highlight">Xavi Carbó</span></h1>
           <p class="lead">Computer Engineering student with knowledge of front-end and back-end (C/C++, Java, HTML, CSS, JavaScript, React, PHP and SQL), as well as operating systems, networks and computer architecture.</p>
-          <div class="cta-row">
+          <div class="cta-row"> <!-- linia de botons -->
             <a class="btn" href="#contact">Contact</a>
             <a class="btn ghost" href="https://www.figma.com/design/JPC7DFAnbInHA6qU37X6zB/Untitled?node-id=0-1&t=SOS8QsvJPjP7K4b0-1" target="_blank" rel="noopener">Visit Figma Page</a>
           </div>
@@ -57,7 +59,7 @@
       <section id="skills" class="section alt">
         <div class="wrapper">
           <h2>Skills</h2>
-          <div class="chips">
+          <div class="chips"> <!-- Els "xips" son caselles -->
             <span class="chip">C and C++</span>
             <span class="chip">Java</span>
             <span class="chip">HTML</span>
@@ -75,7 +77,7 @@
         <div class="wrapper">
           <h2>Experience</h2>
 
-          <article class="item">
+          <article class="item"> <!-- article (classe item) és subapartat amb header + contingut -->
             <header>
               <h3>Academic projects — <span class="emph">Universitat de Girona</span></h3>
               <span class="meta">2023 — 2025 · Girona / remote</span>
@@ -158,11 +160,13 @@
       </div>
     </footer>
 
+    <!-- petit script de javaScript per a obtenir l'any acual -->
     <script>
       document.getElementById('year').textContent = new Date().getFullYear();
     </script>
   </body>
 </html>
+
 
 
 
