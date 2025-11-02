@@ -11,11 +11,9 @@ Single-page, static CV built with plain **HTML + CSS**.
 
 ### User profile (User persona)
 
-**Name:** Laura Harris  
-**Age:** 29  
 **Role:** Junior Tech Recruiter at a software company in Barcelona  
 **Goals:** Quickly decide if the candidate fits an **intern/junior** role; verify core skills (C/C++, Java, HTML/CSS/JS, React, PHP, SQL); see concise **projects**; find **contact** instantly.  
-**Frustrations / Needs:** Very limited time; expects **clear structure**, skimmable content, and working links that open safely in a new tab.  
+**Needs:** Very limited time; expects **clear structure**, skimmable content, and working links that open safely in a new tab.  
 **Devices:** Mostly desktop/laptop; occasionally mobile.  
 **Expectations:** Fast page, obvious sections (**About**, **Skills**, **Experience**, **Education**, **Projects**, **Contact**), simple navigation, readable typography, and a dark UI that keeps focus on content.
 
@@ -59,4 +57,5 @@ Hierarchy and spacing are restrained: compact headings, generous line-height for
 ## Extra information
 
 This CV intentionally does not include live links to project repositories or a LinkedIn profile. The project titles, descriptions, and some dates are partly illustrative for coursework and therefore do not fully reflect my real portfolio or employment history. This document should be read as a design/content prototype rather than an authoritative record. Once the placeholders are replaced with verified project artifacts and my updated LinkedIn, I will add the corresponding links and remove this notice.
+
 
